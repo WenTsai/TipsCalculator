@@ -74,9 +74,10 @@ class ViewController: UIViewController {
     
     @IBAction func people(sender: UITextField) {
         if let people = Int(sender.text!) {
-            self.people = people
+            self.people = people>0 ? people : 1
             setResult()
         }
+        
         else {
             self.people = 1
         }

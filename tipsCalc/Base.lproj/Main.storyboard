@@ -126,6 +126,7 @@
                             <action selector="userTappedBackground:" destination="BYZ-38-t0r" eventType="touchDown" id="Xsx-3K-9cJ"/>
                         </connections>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="peopleTextField" destination="5MC-4M-9Yh" id="44s-qw-6da"/>
